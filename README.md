@@ -42,7 +42,7 @@ The notebook performs the following steps:
 3.  **Run the Jupyter Notebook:**
 
     ```bash
-    jupyter notebook ETL_Extract_Lab.ipynb  # Replace with your notebook's name if different
+    jupyter notebook etl_extract.ipynb  
     ```
 
     This will open the notebook in your web browser. You can then execute each cell sequentially to run the ETL process.
