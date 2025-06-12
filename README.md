@@ -50,3 +50,8 @@ The notebook performs the following steps:
 ### Data Source
 
 The data is synthetically generated within the notebook itself using the `faker` library. The generated data is saved to a CSV file named `custom_data.csv`. The `last_extraction.txt` file is created and updated by the notebook to track the last extraction timestamp.  If you delete `custom_data.csv` or `last_extraction.txt`, the notebook will regenerate the data or perform a full extraction, respectively.
+
+###  Transformations Applied
+- Removed duplicates and filled missing values
+- Added event_code for better analysis
+- Converted timestamps to standard datetime format
