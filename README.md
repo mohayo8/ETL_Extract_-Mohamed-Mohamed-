@@ -55,3 +55,17 @@ The data is synthetically generated within the notebook itself using the `faker`
 - Removed duplicates and filled missing values
 - Added event_code for better analysis
 - Converted timestamps to standard datetime format
+
+
+## 🧩 Lab 5 – Load
+
+In this stage, the transformed datasets (`transformed_full.csv` and `transformed_incremental.csv`) were loaded into structured storage.
+
+### 🔹 Loading Methods Used
+- **SQLite** for structured tabular loading (using `sqlite3`)
+
+### 💾 Output Locations
+- `loaded_data/full_data.db`
+- `loaded_data/incremental_data.db`
+
+
